@@ -8,7 +8,7 @@ function addBurger() {
     burgers.push(newBurger)
 }
 
-if (burgers.length < 3) {
+if (burgers.includes('Maple Bacon Burger')) {
     const anotherNewBurger = 'Maple Bacon Burger'
     burgers.push(anotherNewBurger)
 }
