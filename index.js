@@ -8,7 +8,7 @@ function addBurger() {
     burgers.push(newBurger)
 }
 
-if (burgers.includes('Maple Bacon Burger')) {
+if (true) {
     const anotherNewBurger = 'Maple Bacon Burger'
     burgers.push(anotherNewBurger)
 }
